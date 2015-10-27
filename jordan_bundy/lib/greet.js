@@ -18,6 +18,6 @@ exports.greet = greet;
 
 // If process exists and has a valid argument, output result to screen
 if(process.argv[2]){
-  console.log(greet(process.argv));
+  console.log(greet());
 };
 
