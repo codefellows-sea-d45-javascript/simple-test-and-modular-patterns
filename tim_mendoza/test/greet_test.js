@@ -9,6 +9,7 @@ describe('the greet object', function() {
     expect(greet.greet('test')).to.eql('hello test');
   });
   it('should greet someone by their name when input as a command line arg', function (){
-    expect(childProcess.execSync('node ' + __dirname + '/../lib/greet.js Tim').toString()).to.eql('hello Tim\n');
+    expect(childProcess.execSync('node ' + __dirname + '/../lib/greet.js Tim').toString()).to.eql('hello Tim\n'); // \n is added to 'hello Tim' string because that is how the console outputs it.  
   });
 });
+
