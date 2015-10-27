@@ -3,4 +3,7 @@
 var Greet = require('./lib/greet');
 var greet = new Greet();
 
-console.log(greet.greet(process.argv[2]));
+var arg_parse = require('./lib/arg_parse.js');
+var nameString = arg_parse.parse(process.argv[2]);
+
+console.log(greet.greet(nameString));
