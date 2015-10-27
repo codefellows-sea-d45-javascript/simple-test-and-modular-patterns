@@ -17,4 +17,4 @@ By contrast, . gives you the directory from which you ran the node command in yo
 
 
 var greet = require(__dirname + '/lib/greet');
-console.log(greet());
+console.log(greet("dustin"));
