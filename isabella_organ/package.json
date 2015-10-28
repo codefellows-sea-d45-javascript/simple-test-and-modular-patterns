@@ -1,0 +1,36 @@
+{
+  "name": "isabella_organ",
+  "version": "1.0.0",
+  "description": "Simple Test and Modular Patterns",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "chai": "^3.4.0",
+    "cltags": "^0.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isabellaorgan/simple-test-and-modular-patterns.git"
+  },
+  "keywords": [
+    "test",
+    "mocha",
+    "chai",
+    "modules",
+    "node",
+    "json",
+    "gulp"
+  ],
+  "author": "isabellaorgan@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/isabellaorgan/simple-test-and-modular-patterns/issues"
+  },
+  "homepage": "https://github.com/isabellaorgan/simple-test-and-modular-patterns#readme"
+}
