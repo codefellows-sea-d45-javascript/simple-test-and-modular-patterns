@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/rastringer/simple-test-and-modular-patterns/issues"
   },
-  "homepage": "https://github.com/rastringer/simple-test-and-modular-patterns#readme"
+  "homepage": "https://github.com/rastringer/simple-test-and-modular-patterns#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0"
+  }
 }
