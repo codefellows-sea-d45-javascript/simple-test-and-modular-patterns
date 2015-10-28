@@ -1,0 +1,28 @@
+{
+  "name": "simple-test-and-modular-patterns",
+  "version": "0.1.0",
+  "description": "JSDA Assignment 2",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "chai": "^3.4.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.3.3"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emlandi/simple-test-and-modular-patterns.git"
+  },
+  "author": "emily.landi@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/emlandi/simple-test-and-modular-patterns/issues"
+  },
+  "homepage": "https://github.com/emlandi/simple-test-and-modular-patterns#readme"
+}
