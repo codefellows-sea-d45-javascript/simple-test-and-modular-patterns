@@ -10,17 +10,23 @@ describe('the greet object', function() {
   });
 });
 
-describe('greeting command-line arg', function() {
+describe('test command-line input', function() {
   var greeting = '';
 
-  beforeEach(function() {
+  // here's the new async test
+  // tests that command line args are processed
+  beforeEach(function(done) {
     exec('node ' + __dirname + '/../index.js test',
       function(error, stdout, stderr) {
+        if (error) throw error;
+
         greeting = stdout;
+        done();
     });
   });
 
-  it('should greet the third command line arg', function() {
-    expect(greet('test')).to.eql(greeting);
+  it('should equal greet output plus linebreak', function() {
+    expect(greet('test') + '\n').to.eql(greeting);
   });
 });
+
