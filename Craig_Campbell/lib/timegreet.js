@@ -14,6 +14,3 @@ Greet.prototype.greeting = function(time, name){
   return "Good " + time + ", " + name + "!";
 };
 
-// var mornin = new Greet()
-
-// console.log(mornin.greeting(mornin.timeGreet(), "Paul"))

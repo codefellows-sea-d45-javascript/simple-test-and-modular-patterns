@@ -8,7 +8,6 @@
   },
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha test",
-    "custom": "rm meh.js",
     "start": "node index.js"
   },
   "repository": {

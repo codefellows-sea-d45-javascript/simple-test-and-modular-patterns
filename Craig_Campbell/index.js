@@ -4,4 +4,6 @@ var Greet = require(__dirname + '/lib/timegreet.js');
 
 var greetNow = new Greet();
 
-console.log(greetNow.greeting(greetNow.timeGreet(), "Craig"));
+var name = process.argv[2] || "whoever you are";
+
+console.log(greetNow.greeting(greetNow.timeGreet(), name ));
