@@ -20,10 +20,9 @@
     "url": "https://github.com/irusiabondarenko/simple-test-and-modular-patterns/issues"
   },
   "homepage": "https://github.com/irusiabondarenko/simple-test-and-modular-patterns#readme",
-  "dependencies": {
-    "mocha": "^2.3.3"
-  },
+  
   "devDependencies": {
+    "mocha": "^2.3.3",
     "chai": "^3.4.0"
   }
 }
