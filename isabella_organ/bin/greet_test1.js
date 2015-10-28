@@ -6,9 +6,4 @@ describe('greet bin', function() {
 			this.backup = process.argv;
 			process.argv ['node', 'myfile', 'test name'];
 	});
-	after(function() {
-		process.argv = this.backup;
-	});
-
-it ('should ')
 });
