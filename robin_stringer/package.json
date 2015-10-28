@@ -1,0 +1,26 @@
+{
+  "name": "robin_stringer",
+  "version": "0.1.0",
+  "description": "Node Learning App",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "'./node_modules/mocha/bin/mochatest'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rastringer/simple-test-and-modular-patterns.git"
+  },
+  "keywords": [
+    "Learning",
+    "Node"
+  ],
+  "author": "ra1stringer@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rastringer/simple-test-and-modular-patterns/issues"
+  },
+  "homepage": "https://github.com/rastringer/simple-test-and-modular-patterns#readme"
+}
