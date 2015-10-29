@@ -1,5 +1,3 @@
 'use strict';
 
-var greet = require(__dirname + '/lib/greet');
-
-console.log(greet('TA'));
+module.exports = require(__dirname + '/lib/greet');
