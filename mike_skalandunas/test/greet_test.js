@@ -11,11 +11,9 @@ describe('greet bin', function() {
 
   after(function() {
     process.argv = this.backup;
-    debugger;
   });
 
   it('should greet anonymous', function() {
-    debugger;
     expect(greet()).to.eql('hello anonymous');
   });
 
@@ -27,7 +25,6 @@ describe('greet bin', function() {
 
     after(function() {
       process.argv = this.backup;
-      debugger;
     });
 
     it('should pull from process.argv', function() {
@@ -35,4 +32,3 @@ describe('greet bin', function() {
     });
   });
 });
-debugger;

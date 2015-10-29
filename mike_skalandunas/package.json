@@ -1,16 +1,23 @@
 {
-  "name": "oct_28_greet_bonus_points",
-  "version": "1.0.0",
-  "description": "",
+  "name": "greeting app",
+  "version": "0.1.0",
+  "description": "greeting app",
   "main": "index.js",
-  "bin": "bin/greet",
-  "scripts": {
-    "test": "./node_modules/mocha/bin/mocha test"
+  "directories": {
+    "test": "test"
   },
-  "author": "",
-  "license": "ISC",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha test",
+    "start": "echo 'hello world'",
+    "custom": "echo 'custom'"
+  },
+  "author": "mskalandunas@gmail.com",
+  "license": "MIT",
   "devDependencies": {
     "chai": "^3.4.0",
+    "gulp": "^3.9.0",
+    "gulp-jshint": "^1.11.2",
+    "gulp-mocha": "^2.1.3",
     "mocha": "^2.3.3"
   }
 }
