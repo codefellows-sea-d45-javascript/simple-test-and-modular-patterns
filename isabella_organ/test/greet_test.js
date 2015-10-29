@@ -10,5 +10,7 @@ describe('greet bin', function() {
 		process.argv = this.backup;
 	});
 
-it ('should ')
+it ('should pull from process.argv', function) {
+	
+}
 });
