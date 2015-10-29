@@ -1,0 +1,29 @@
+{
+  "name": "gulppackage",
+  "version": "1.0.0",
+  "description": "adding a gulpfile and a package.json",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "chai": "^3.4.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-jshint": "^1.11.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/picklekitch/simple-test-and-modular-patterns.git"
+  },
+  "author": "Will Kitchell (william.kitchell@gmail.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/picklekitch/simple-test-and-modular-patterns/issues"
+  },
+  "homepage": "https://github.com/picklekitch/simple-test-and-modular-patterns#readme"
+}
