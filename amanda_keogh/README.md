@@ -11,6 +11,9 @@ files:
     the command line.
   * greet_test.js - tests greeting.js.
 
+October 29, 2015 UPDATE
+  * added gulpfile, package.json
+
 
 Simple Modular Patterns and Testing
 ======================================
