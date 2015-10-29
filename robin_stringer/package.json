@@ -17,6 +17,9 @@
     "Learning",
     "Node"
   ],
+  "dependencies": {
+    "chai": "^3.4.0"
+  },
   "author": "ra1stringer@gmail.com",
   "license": "MIT",
   "bugs": {
