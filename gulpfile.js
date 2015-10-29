@@ -1,6 +1,6 @@
 var gulp = require('gulp');
 var jshint = require('gulp-jshint');
-var appFiles = ['index.js', 'lib/**/*.js', 'bin/**/*.js'];
+var appFiles = ['index.js', '*.js', 'bin/**/*.js'];
 var testFiles = ['./test/**/*.js'];
 
 gulp.task('jshint:test', function() {
