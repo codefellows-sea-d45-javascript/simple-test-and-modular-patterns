@@ -1,0 +1,22 @@
+{
+  "name": "john_miller",
+  "version": "0.0.0",
+  "description": "An application to greet users by name with JS.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "chai": "~3.4.0",
+    "gulp": "~3.9.0"
+  },
+  "devDependencies": {
+    "gulp-jshint": "~1.11.2",
+    "gulp-mocha": "~2.1.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "tucker.miller@gmail.com",
+  "license": "MIT"
+}
