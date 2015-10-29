@@ -1,0 +1,44 @@
+{
+  "name": "jenny_pollack_greeting_app",
+  "version": "0.2.0",
+  "description": "greeting app assignment 2",
+  "main": "lib/greet.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "chai": "^3.4.0"
+  },
+  "devDependencies": {
+    "chai": "^3.4.0",
+    "gulp": "^3.9.0",
+    "gulp-jshint": "^1.11.2",
+    "gulp-mocha": "^2.1.3",
+    "gulp-watch": "^4.3.5",
+    "mocha": "^2.3.3"
+  },
+  "scripts": {
+    "test": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jenpoll/simple-test-and-modular-patterns.git"
+  },
+  "keywords": [
+    "code",
+    "fellows",
+    "simple",
+    "modular",
+    "patterns",
+    "and",
+    "testing",
+    "gulp",
+    "package.json"
+  ],
+  "author": "Jenny Pollack",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jenpoll/simple-test-and-modular-patterns/issues"
+  },
+  "homepage": "https://github.com/jenpoll/simple-test-and-modular-patterns#readme"
+}
