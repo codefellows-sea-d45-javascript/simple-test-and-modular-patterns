@@ -10,5 +10,5 @@ describe('the greet function', function(){
 
   it('should process the arguments input in the console', function(){
     expect(greeting.greet(process.argv)).to.eql('hello ' + process.argv);
-  })
+  });
 });
