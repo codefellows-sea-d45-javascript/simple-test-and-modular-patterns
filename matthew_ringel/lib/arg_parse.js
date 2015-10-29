@@ -9,6 +9,6 @@ exports.parse = function(arg) {
     // return arg.toString();
   }
   else {
-    return arg
+    return arg;
   }
 };
