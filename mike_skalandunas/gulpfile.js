@@ -14,13 +14,13 @@ watcher.on('change', function(event) {
 gulp.task('jshint:test', function() {
   return gulp.src(testFiles)
     .pipe(jshint({
-      node: true,
-      globals: {
-        describe: true,
-        it: true,
-        before: true,
-        after: true
-      }
+      // node: true,
+      // globals: {
+      //   describe: true,
+      //   it: true,
+      //   before: true,
+      //   after: true
+      // }
     }))
     .pipe(jshint.reporter('default'));
 });
@@ -34,7 +34,9 @@ gulp.task('jshint:app', function() {
 });
 
 gulp.task('default', function() {
-  return gulp.src('greet_test.js', {read: false})
+  return gulp.src('greet_test.js', {
+    read: false
+  })
   .pipe(mocha({reporter: 'spec'}));
 });
 
