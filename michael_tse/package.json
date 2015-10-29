@@ -1,6 +1,6 @@
 {
   "name": "michael_tse",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "way to greet someone",
   "main": "index.js",
   "directories": {
@@ -13,6 +13,8 @@
   "license": "MIT",
   "devDependencies": {
     "chai": "^3.4.0",
+    "gulp-jshint": "^1.11.2",
+    "gulp-mocha": "^2.1.3",
     "mocha": "^2.3.3"
   }
 }
