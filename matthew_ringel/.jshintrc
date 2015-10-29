@@ -1,0 +1,8 @@
+{
+  "node": true,
+  "globals": {
+    "exports": true,
+    "module": true
+
+  }
+}
