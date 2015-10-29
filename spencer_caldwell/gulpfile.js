@@ -13,7 +13,7 @@ gulp.task('jshint:test', function() {
       globals: {
         describe: true,
         it: true,
-        befroe: true,
+        before: true,
         after: true
       }
     }))
