@@ -7,7 +7,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "gulp test"
   },
   "repository": {
     "type": "git",
@@ -20,7 +20,9 @@
   },
   "homepage": "https://github.com/KenjiCrosland/simple-test-and-modular-patterns#readme",
   "devDependencies": {
+    "chai": "^3.4.0",
     "gulp": "^3.9.0",
-    "gulp-jshint": "^1.11.2"
+    "gulp-jshint": "^1.11.2",
+    "gulp-mocha": "^2.1.3"
   }
 }
