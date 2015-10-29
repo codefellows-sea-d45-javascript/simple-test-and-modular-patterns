@@ -1,4 +1,4 @@
 'use strict';
 
-var greet = require(__dirname + '/lib/greet');
+var greet= require(__dirname + '/lib/greet');
 
