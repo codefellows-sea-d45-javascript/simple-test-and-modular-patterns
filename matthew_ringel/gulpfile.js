@@ -8,6 +8,10 @@ gulp.task('jshint', function() {
   return gulp.src('./lib/*.js')
     .pipe(jshint())
     .pipe(jshint.reporter('default'));
+  return gulp.src('./test/*.js')
+    .pipe(jshint())
+    .pipe(jshint.reporter('default'));
+
 });
 
 gulp.task('mocha', function() {
