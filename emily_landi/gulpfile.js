@@ -48,8 +48,14 @@ gulp.task('mocha:test', function() {
     .pipe(mocha({reporter:'spec'}));
 });
 
-//set default task to run jshint:test & jshint:app
-gulp.task('jshint', ['jshint:test', 'jshint:app']);
-gulp.task('mocha', ['mocha:test']);
+//BONUS - watch task *this is incomplete*
+gulp.task('watch', function() {
+  gulp.watch(appFiles, ['jshint:app']);
+  gulp.watch(testFile, ['jshint:test', 'mocha:test']);
+});
 
-gulp.task('default', ['jshint', 'mocha']);
+//set default task to run all
+gulp.task('default', ['jshint:test', 'jshint:app', 'mocha:test', 'watch']);
+
+
+
