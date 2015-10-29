@@ -1,0 +1,34 @@
+{
+  "name": "david_vicklund",
+  "version": "0.1.0",
+  "description": "Short greeting server",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "gulp-jshint": "~1.11.2",
+    "gulp-mocha": "~2.1.3"
+  },
+  "devDependencies": {
+    "gulp-mocha": "~2.1.3",
+    "gulp-jshint": "~1.11.2",
+    "chai": "~3.4.0",
+    "mocha": "~2.3.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dvicklund/simple-test-and-modular-patterns"
+  },
+  "keywords": [
+    "greet"
+  ],
+  "author": "david@vicklund.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dvicklund/simple-test-and-modular-patterns/issues"
+  }
+}
