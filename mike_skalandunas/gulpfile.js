@@ -13,15 +13,6 @@ watcher.on('change', function(event) {
 
 gulp.task('jshint:test', function() {
   return gulp.src(testFiles)
-    .pipe(jshint({
-      // node: true,
-      // globals: {
-      //   describe: true,
-      //   it: true,
-      //   before: true,
-      //   after: true
-      // }
-    }))
     .pipe(jshint.reporter('default'));
 });
 
