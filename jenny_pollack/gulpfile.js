@@ -38,5 +38,8 @@ gulp.task('mocha', function(){
     .pipe(mocha({reporter: 'spec'}));
 });
 
+gulp.watch(appFiles, ['mocha']); 
+
+
 gulp.task('jshint', ['jshint:test', 'jshint:app']);
 gulp.task('default', ['jshint', 'mocha']);
