@@ -1,0 +1,23 @@
+{
+  "name": "oct28_assignment",
+  "version": "0.1.0",
+  "description": "greeting app",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha test",
+    "start": "echo 'hello world'",
+    "custom": "echo 'custom'"
+  },
+  "author": "walter nicholas",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^3.4.0",
+    "gulp": "^3.9.0",
+    "gulp-jshint": "^1.11.2",
+    "gulp-mocha": "^2.1.3",
+    "mocha": "^2.3.3"
+  }
+}
