@@ -6,4 +6,4 @@ exports.greet = function(name) {
 
 if (process.argv.length > 2) {
   console.log(exports.greet(process.argv[2]));
-}
+};
