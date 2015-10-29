@@ -1,0 +1,31 @@
+{
+  "name": "simple_modular_pattern_tester",
+  "version": "1.0.0",
+  "description": "simple modular pattern tester",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JackSSS/simple-test-and-modular-patterns.git"
+  },
+  "keywords": [
+    "tester",
+    "modular",
+    "patterns"
+  ],
+  "author": "Jack Sneed",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JackSSS/simple-test-and-modular-patterns/issues"
+  },
+  "homepage": "https://github.com/JackSSS/simple-test-and-modular-patterns#readme",
+  "devDependencies": {
+    "chai": "^3.4.0",
+    "mocha": "^2.3.3"
+  }
+}
