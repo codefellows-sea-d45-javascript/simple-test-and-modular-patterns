@@ -1,6 +1,8 @@
 'use strict';
 
-var expect = require('chai').expect;
+var chai = require('chai');
+var expect = chai.expect;
+var assert = chai.assert;
 
 var arg_parse = require('../lib/arg_parse.js');
 
@@ -9,6 +11,7 @@ describe('the parse function', function testParse() {
     expect(arg_parse.parse('NAME')).to.eql('NAME');
   });
   it('should throw an error', function errorExpect() {
-    expect(arg_parse.parse(0)).to.throw(TypeError);
+    // expect(arg_parse.parse(0)).to.throw(TypeError);
+    assert.throws(arg_parse.parse(0), TypeError, 'string!')
   });
 });
