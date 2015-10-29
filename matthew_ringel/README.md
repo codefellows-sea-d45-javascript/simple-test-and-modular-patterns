@@ -1,4 +1,4 @@
-#Simple Test and Modular Pattern Homework Submission#
+#Adding a Gulpfile/package.json#
 ##Matthew Ringel##
 ##28 October 2015##
 
