@@ -29,4 +29,3 @@ describe('test command-line input', function() {
     expect(greet('test') + '\n').to.eql(greeting);
   });
 });
-
