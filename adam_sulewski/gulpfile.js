@@ -31,10 +31,3 @@ gulp.task('watch', function() {
 
 gulp.task('jshint', ['jshint:test', 'jshint:app']);
 gulp.task('default', ['mocha']);
-// two tasks
-// run mocha/chai test
-
-// MOCHA SHOULD ONLY RUN IF JSHIsNT PASSES
-
-// bonus: watch for changes and run the above
-// bonus: jshint options into a jshintrc file

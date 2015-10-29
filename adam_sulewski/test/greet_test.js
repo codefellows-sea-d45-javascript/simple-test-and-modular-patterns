@@ -11,21 +11,18 @@ describe('the greet object', function() {
 });
 
 describe('test command-line input', function() {
-  var greeting = '';
 
-  // here's the new async test
-  // tests that command line args are processed
-  beforeEach(function(done) {
-    exec('node ' + __dirname + '/../index.js test',
-      function(error, stdout, stderr) {
-        if (error) throw error;
-
-        greeting = stdout;
-        done();
-    });
+  // Adding test from class for practice
+  before(function() {
+    this.backup = process.argv[2];
+    process.argv = ['node', 'index.js', 'test'];
   });
 
-  it('should equal greet output plus linebreak', function() {
-    expect(greet('test') + '\n').to.eql(greeting);
+  after(function() {
+    process.argv = this.backup;
+  });
+
+  it('should read from args', function() {
+    expect(greet('test')).to.eql(greet(process.argv[2]));
   });
 });
