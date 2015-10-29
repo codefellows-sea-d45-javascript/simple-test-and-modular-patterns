@@ -1,0 +1,30 @@
+{
+  "name": "simple_greeting",
+  "version": "0.1.0",
+  "description": "just a friendly hello",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "chai": "^3.4.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-jshint": "^1.11.2",
+    "gulp-mocha": "^2.1.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryanheathers/simple-test-and-modular-patterns.git"
+  },
+  "author": "Ryan Heathers",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ryanheathers/simple-test-and-modular-patterns/issues"
+  },
+  "homepage": "https://github.com/ryanheathers/simple-test-and-modular-patterns#readme"
+}
