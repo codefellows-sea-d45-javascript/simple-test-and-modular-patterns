@@ -14,10 +14,10 @@ gulp.task('jshint:test', function() {
 					after: true
 				}
 		}))
-	pipe.(jshint.reporter('default'));
+		pipe.(jshint.reporter('default'));
 });
 
-gulp.task('jshint:app', function( {
+gulp.task('jshint:app', function() {
 	return gulp.src(appFiles)
 	.pipe(jshint({
 		node: true
