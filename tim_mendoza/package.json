@@ -1,0 +1,24 @@
+{
+  "name": "tim_mendoza",
+  "version": "0.1.0",
+  "description": "Assignment for Oct 29",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    
+  },
+  "devDependencies": {
+    "chai": "^3.4.0",
+    "gulp": "^3.9.0",
+    "gulp-jshint": "^1.11.2",
+    "gulp-mocha": "^2.1.3",
+    "mocha": "^2.3.3"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha"
+  },
+  "author": "timmydoza@gmail.com",
+  "license": "MIT"
+}
