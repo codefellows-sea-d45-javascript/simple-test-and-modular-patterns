@@ -4,8 +4,8 @@
 // Simple exported function--takes user's name as argument and returns a string
 // with a greeting.
 
-'use strict'
+'use strict';
 
 module.exports = function(name) {
   return "hello " + name;
-}
+};

@@ -4,11 +4,11 @@
 // Test for greeting.js - checks that exported function successfully takes
 // arguments and returns correct string.
 
-'use strict'
+'use strict';
 
 var expect = require('chai').expect;
 var greeting = require(__dirname + "/../lib/greeting");
-var greet = require(__dirname + "/../lib/greet");
+var greet = require(__dirname + "/../greet");
 
 describe('the greeting function', function() {
   it('should greet the user by name', function () {

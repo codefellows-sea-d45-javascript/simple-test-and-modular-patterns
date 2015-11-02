@@ -4,8 +4,8 @@
 // Command line utility utilizing greeting.js. Allows the user to pass an argum-
 // ent via the command line.
 
-'use strict'
-var greet = require(__dirname + "/greeting");
+
+var greet = require(__dirname + "/lib/greeting");
 
 console.log(greet(process.argv[2]));
 
