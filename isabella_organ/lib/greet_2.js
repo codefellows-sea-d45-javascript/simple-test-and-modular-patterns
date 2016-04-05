@@ -1,5 +1,5 @@
 'use strict';
 
-module.exports = function(name) {
+exports.greet = function(name) {
   return 'hello ' + name;
 };
