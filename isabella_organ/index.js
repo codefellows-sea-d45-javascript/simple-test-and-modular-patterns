@@ -1,2 +1,1 @@
-mobile.exports = require(__dirname + '/lib/greet');
-
+module.exports = require(__dirname + '/lib/greet');
