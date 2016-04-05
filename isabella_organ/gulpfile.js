@@ -14,7 +14,7 @@ gulp.task('jshint:test', function() {
       after: true
     }
   }))
-		.pipe(jshint.reporter('default'));
+  .pipe(jshint.reporter('default'));
 });
 
 gulp.task('jshint:app', function() {
