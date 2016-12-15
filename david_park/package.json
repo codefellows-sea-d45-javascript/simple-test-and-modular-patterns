@@ -1,0 +1,23 @@
+{
+  "name": "greet_test",
+  "version": "0.1.0",
+  "description": "greet function with test, json, gulp",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "chai": "^3.4.0"
+  },
+  "devDependencies": {
+    "chai": "^3.4.0",
+    "gulp": "^3.9.0",
+    "gulp-jshint": "^1.11.2",
+    "mocha": "^2.3.3"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha test"
+  },
+  "author": "dpark4657@gmail.com",
+  "license": "MIT"
+}
