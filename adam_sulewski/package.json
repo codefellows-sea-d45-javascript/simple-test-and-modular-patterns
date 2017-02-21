@@ -1,0 +1,34 @@
+{
+  "name": "da_hw_week_1",
+  "version": "0.1.0",
+  "description": "a simple modular greet program with testing",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "./node_modules/gulp/bin/gulp.js",
+    "start": "echo 'hello world'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adam-james/simple-test-and-modular-patterns.git"
+  },
+  "keywords": [
+    "greet",
+    "hello"
+  ],
+  "author": "Adam Sulewski",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adam-james/simple-test-and-modular-patterns/issues"
+  },
+  "homepage": "https://github.com/adam-james/simple-test-and-modular-patterns",
+  "devDependencies": {
+    "chai": "^3.4.0",
+    "gulp": "^3.9.0",
+    "gulp-jshint": "^1.11.2",
+    "gulp-mocha": "^2.1.3",
+    "mocha": "^2.3.3"
+  }
+}
